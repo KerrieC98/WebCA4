@@ -1,0 +1,86 @@
+@font-face
+{
+    font-family: titillium-regular;
+    src: url(../fonts/Titillium-Regular.otf);
+}
+
+h1{
+    position: relative;
+    left: 500px;
+    top: 200px;
+}
+
+body
+{
+    font-family: titillium-regular;
+}
+
+#formDiv
+{
+    border: 1px solid #999;
+    margin:0 auto;
+    width:40%;
+    text-align:left;
+    position: relative;
+    top: 200px;
+    height: 400px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+input[type=text], span{
+    display: inline-block;
+    margin: 10px;
+}
+
+#county{
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+#countyLabel
+{
+    position: relative;
+    top: 10px;
+}
+
+#town
+{
+    display: inline-block;
+    position: relative;
+    right: 94px;
+    top: 50px;
+}
+
+#submit
+{
+    position: relative;
+    top: 100px;
+    left: 700px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 10%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: #72a8ff;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #598de0;
+}
+
+label
+{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin: 10px;
+    font-weight: bold;
+}
